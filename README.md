@@ -8,6 +8,8 @@ $ terraform init
 replace access_key and secret_key
 
 $ terraform apply
+
+$ terraform destroy
 ```
 
 ### base64 command
