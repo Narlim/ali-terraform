@@ -7,8 +7,13 @@ $ terraform init
 
 replace ssh public_key, access_key and secret_key
 
+create resources:
 $ terraform apply
 
+get ecs ip address:
+$ terraform show
+
+delete all resources:
 $ terraform destroy
 ```
 
