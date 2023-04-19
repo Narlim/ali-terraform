@@ -5,7 +5,7 @@ create ali ecs for proxy
 ```
 $ terraform init
 
-replace access_key and secret_key
+replace ssh public_key, access_key and secret_key
 
 $ terraform apply
 
