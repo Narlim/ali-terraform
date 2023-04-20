@@ -58,7 +58,7 @@ resource "alicloud_ecs_key_pair_attachment" "attachment" {
 resource "alicloud_ecs_command" "init" {
   name = "install"
   type = "RunShellScript"
-  command_content = "YXB0IHVwZGF0ZSAmJiBhcHQgaW5zdGFsbCBzaGFkb3dzb2Nrcy1saWJldiAteSAmJiBzZWQgLWkgJ3MvIjo6MSIsICIxMjcuMC4wLjEiLyIwLjAuMC4wIi9nOyBzLyJwYXNzd29yZCI6LiovInBhc3N3b3JkIjoiVG9wU2VjcmV0IiwvZycgL2V0Yy9zaGFkb3dzb2Nrcy1saWJldi9jb25maWcuanNvbiAmJiBzeXN0ZW1jdGwgcmVzdGFydCBzaGFkb3dzb2Nrcy1saWJldg=="
+  command_content = "YXB0IHVwZGF0ZSAmJiBhcHQgaW5zdGFsbCBzaGFkb3dzb2Nrcy1saWJldiAteSAmJiBzZWQgLWkgJ3MvIjo6MSIsICIxMjcuMC4wLjEiLyIwLjAuMC4wIi9nOyBzLyJwYXNzd29yZCI6LiovInBhc3N3b3JkIjoiRXZGUkVkR0F6K2taZGJ5a2haZGo1dz09IiwvZycgL2V0Yy9zaGFkb3dzb2Nrcy1saWJldi9jb25maWcuanNvbiAmJiBzeXN0ZW1jdGwgcmVzdGFydCBzaGFkb3dzb2Nrcy1saWJldg=="
 }
 
 resource "alicloud_ecs_invocation" "default" {

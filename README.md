@@ -19,5 +19,5 @@ $ terraform destroy
 
 ### base64 command
 ```
-apt update && apt install shadowsocks-libev -y && sed -i 's/"::1", "127.0.0.1"/"0.0.0.0"/g; s/"password":.*/"password":"TopSecret",/g' /etc/shadowsocks-libev/config.json && systemctl restart shadowsocks-libev
+apt update && apt install shadowsocks-libev -y && sed -i 's/"::1", "127.0.0.1"/"0.0.0.0"/g; s/"password":.*/"password":"EvFREdGAz+kZdbykhZdj5w==",/g' /etc/shadowsocks-libev/config.json && systemctl restart shadowsocks-libev
 ```
