@@ -6,7 +6,7 @@ provider "alicloud" {
 
 resource "alicloud_ecs_key_pair" "pair" {
   key_pair_name = "my_arch"
-  public_key    = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDpGXdPjLwD0sdVCN02o0aNSIrmNaxgk58ZhssfPAReb+lV1fpxxrPv5dPqq5uSKqeLj0aZg7VCKSdQP0ehRYAcZ/Xfp+tihbYCfMIfBZAk9rMEDFT+MMpyJa5nIuTDg2Oypvn+UZic9oPTouj/ykIqAsWM6apzrnMpRPFU51xbxDcvo2CgyG9zFb5va57HdxthT6DAsGq8/xGJBY3qEqctPWzkCv+ShdRZkGGtVKgNHaw7WB7Z6r+C3bqoOXmEPxBGDSVp07cgapGIGpS19i6yhzqByKg/M0dVs2Up2NwERwSX/w1gZNWxb9/uu3IicjCQjDIWOwxk3exroqpyFLq/bAR9g9PD4WCT3nUrr5PftqqedOdLmK9GG5IOlwWv3iwxUc7OoStwHQlkFYYl1a4Q/Gu3v3NPTHzfCxCBjDSyqO18Am88ktBIYdQ7LU2UC0YO+zwDpBgmKE3mbfdKZTmGV2uySufczrLTG57ODZkhZammt9E6cOjseibld4ZUiU0= joe@JoesGear"
+  public_key    = "${public_key}"
 }
 
 resource "alicloud_vpc" "vpc" {
